@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<form action="action_page.php">
+
+
+
+ <div class="container">
+ <h1>REGISTRATION FORM</h1>
+ <hr>
+<!--NAME-->
+  <label class="label"><b>First Name:</b></label>
+  <input type="firstname" class="firstname" placeholder="Enter First Name" required>
+  <br />
+  
+<!--LASTNAME-->
+<label class="label"><b>Middle Name:</b></label>
+<input type="lastname" class="middlename" placeholder="Enter Middle Name" required>
+<br />
+
+<!--LASTNAME-->
+<label class="label"><b>Last Name:</b></label>
+<input type="lastname" class="lastname" placeholder="Enter Last Name" required>
+<br />
+
+<!--GENDER-->
+<label class="label"><b>Gender:</b></label>
+<div class="control">
+	<label class="radio">
+		<input type="radio" name="MaleFemale" required>
+		Male
+	</label>
+	
+	<label class="radio">
+		<input type="radio" name="MaleFemale" required>
+		Female
+	</label>
+	</div>
+  <br/>
+  
+
+  
+  <!--AGE-->
+  <label class="label"><b>Age:</b></label>
+  <input type="age" class="age" placeholder="Enter Age" required>
+  <br />
+  
+<!--ADDRESS-->
+  <label class="label"><b>Username:</b></label>
+  <input type="username" class="username" placeholder="Enter Username" required>
+  <br />
+  
+<!--EMAIL-->
+  <label class="label"><b>Email:</b></label>
+  <input type="email" class="email" placeholder="Enter Email" required>
+  <br />
+
+
+<!--CONFIRMATION--> 
+  <input type="checkbox">
+  <label> I hereby declare that the above information provided is true and correct</label>
+
+</hr>
+
+  <!--SUBMIT-->
+  <button class="submit">Submit</button>
+  <br/>
+  
+ 
+</div> 
+<!-- STYLE -->
+<style>
+  .container {
+    width: 550px;
+    margin: 0 auto;
+    border: 5px solid black;
+    padding: 50px;
+	background: rgba(255, 255, 255, .1);
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+	backdrop-filter: blur(50px);
+	color: #fff;
+  }
+ 
+ h1{
+color: white;
+}
+
+  .label {
+    font-size: 20px;
+  }
+  .submit {
+    width: 30%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: blue;
+    color: white;
+  }
+  .firstname {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  .middlename{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  .lastname{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+ body{
+ background-color: white;
+ background-image: url("bodybackground4.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ padding: 0;
+ }
+  
+  .email{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  .age
+  {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+ .username {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  h1{ 
+  text-align: center;
+  }
+</style>
+
+
+
+
